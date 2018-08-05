@@ -1,0 +1,39 @@
+body
+{
+background-image: url("temp.jpg");
+background-repeat: no-repeat;
+background-position: center; 
+background-size: 100% 120%;
+}
+.container {
+    position: relative;
+    font-size: 26px;
+    font-family: courier;
+    margin: 20px;
+    max-width: 900px;
+    max-height: 800px;
+    padding: 16px;
+    background-color: white;
+    border: 2px solid black;
+    outline: #042080 solid 10px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    }
+    .btn{
+    background-color: #008CBA;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: courier;
+}
+    .btn:hover {
+    background-color: #008CBA;
+    color: black;
+    }
